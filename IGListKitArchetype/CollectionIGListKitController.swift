@@ -36,6 +36,7 @@ extension CollectionIGListKitController: ListAdapterDataSource {
     func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
         return PostData.postData
     }
+    
     // 返回合適的 ListSectionController
     func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
         
